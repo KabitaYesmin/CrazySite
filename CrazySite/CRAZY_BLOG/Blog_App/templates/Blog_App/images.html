@@ -1,0 +1,17 @@
+{% extends 'Blog_App/base.html' %}
+
+{% block title %}The Video page{% endblock %}
+
+{% block content %}
+	<meta charset="UTF-8">
+	<title>site_image</title>
+
+<body>
+	<form method = "post" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit">Upload</button>
+	</form>
+</body>
+
+{% endblock %}

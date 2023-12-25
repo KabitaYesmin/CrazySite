@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/CMS/.idea/CMS.iml" filepath="$USER_HOME$/Desktop/CMS/.idea/CMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CrazySite.iml" filepath="$PROJECT_DIR$/.idea/CrazySite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FoodBankModel/.idea/FoodBankModel.iml" filepath="$PROJECT_DIR$/../FoodBankModel/.idea/FoodBankModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RandomWebModel/.idea/RandomWebModel.iml" filepath="$PROJECT_DIR$/../RandomWebModel/.idea/RandomWebModel.iml" />
+    </modules>
+  </component>
+</project>

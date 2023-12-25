@@ -1,0 +1,13 @@
+{% extends 'Blog_App/base.html' %}
+{% block title %}This is blog Post{% endblock %}
+{% block content %}
+
+<h1> {{post.title}}</h1>
+<b> By:{{post.author.first_name}} {{post.author.email}}</b>
+{{post.body}}
+
+
+<br><br/>
+<a href="{% url 'home' %}"  class="btn btn-secondary"> Back </a>
+
+{% endblock %}
